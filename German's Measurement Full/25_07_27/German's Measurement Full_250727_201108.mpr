@@ -1,0 +1,53 @@
+{
+"scripts":
+[
+{"name":"1 Настройка параметров","smark":"passed"},
+{"name":"2 Инициализация приборов","smark":"passed"},
+{"name":"3 Измерения","smark":"passed"},
+{"name":"4 Создание отчета","smark":"start"}
+],
+"report":
+[
+{"name":"Results","kind":"table","info":"Номер \nзамера#60;Системное \nвремя#120;Время на \nизмерения#80;Входное \nнапряжение, В#90;Входной \nток, А#60;Выходное \nнапряжение, В#90;Выходной \nток, А#70;КПД, %#70;","script":"3 Измерения",
+"data":"1;20:10:07.910149;3,50;27.830;8.650;220.460;0.590;54.03218134877529;\r
+2;20:10:12.261478;3,45;27.810;8.490;220.450;0.590;55.08754720848903;\r
+3;20:10:18.661189;3,47;27.860;8.550;220.360;0.590;54.58050486349879;\r
+4;20:10:22.874494;3,42;27.750;8.820;220.430;0.590;53.13627913627913;\r
+5;20:10:27.070567;3,44;27.750;8.610;220.520;0.590;54.454510259388314;\r
+6;20:10:31.181644;3,42;27.810;8.480;220.460;0.590;55.1550107535636;\r
+7;20:10:37.415960;3,48;27.820;8.450;220.500;0.590;55.340970482263415;\r
+8;20:10:41.518571;3,36;27.780;9.010;220.450;0.590;51.96430012569028;\r
+9;20:10:45.552989;3,32;27.670;8.480;220.410;0.590;55.42150241048475;\r
+10;20:10:51.766539;3,45;27.750;8.550;220.450;0.590;54.8192402929245;\r
+11;20:10:55.629393;3,17;27.750;8.690;220.540;0.590;53.958096185944285;\r
+12;20:10:59.832424;3,44;27.810;8.830;220.510;0.590;52.980811793992814;\r
+"},
+{"name":"KPD_AV","kind":"string","info":"","script":"3 Измерения",
+"data":"54.24424623844118"}
+
+],
+"tree":
+[
+{"line":"0","name":"German's Measurement Full","type":"project","project":"","script":"","region":"","status":"empty","pcode":"0","pcount":"1"},
+{"line":"1","name":"1 Настройка параметров","type":"script","project":"German's Measurement Full","script":"","region":"","status":"empty","pcode":"0","pcount":"1"},
+{"line":"2","name":"Настройка параметров","type":"region","project":"German's Measurement Full","script":"1 Настройка параметров","region":"","status":"empty","pcode":"0","pcount":"2"},
+{"line":"3","name":"Ввод параметров","type":"hesh","project":"German's Measurement Full","script":"1 Настройка параметров","region":"Настройка параметров","status":"passed","pcode":"5","pcount":"2"},
+{"line":"4","name":"2 Инициализация приборов","type":"script","project":"German's Measurement Full","script":"","region":"","status":"empty","pcode":"0","pcount":"1"},
+{"line":"5","name":"Инициализация","type":"region","project":"German's Measurement Full","script":"2 Инициализация приборов","region":"","status":"empty","pcode":"0","pcount":"2"},
+{"line":"6","name":"Инициализация DMM6500_04582450","type":"hesh","project":"German's Measurement Full","script":"2 Инициализация приборов","region":"Инициализация","status":"passed","pcode":"5","pcount":"2"},
+{"line":"7","name":"Инициализация DMM6500_04625545","type":"hesh","project":"German's Measurement Full","script":"2 Инициализация приборов","region":"Инициализация","status":"passed","pcode":"5","pcount":"2"},
+{"line":"8","name":"Инициализация HP34401A_GERMAN","type":"hesh","project":"German's Measurement Full","script":"2 Инициализация приборов","region":"Инициализация","status":"passed","pcode":"5","pcount":"2"},
+{"line":"9","name":"Инициализация HDM3065B_GERMAN","type":"hesh","project":"German's Measurement Full","script":"2 Инициализация приборов","region":"Инициализация","status":"passed","pcode":"5","pcount":"2"},
+{"line":"10","name":"Настройка параметров","type":"region","project":"German's Measurement Full","script":"2 Инициализация приборов","region":"","status":"empty","pcode":"0","pcount":"2"},
+{"line":"11","name":"Настройка DMM6500_04582450","type":"hesh","project":"German's Measurement Full","script":"2 Инициализация приборов","region":"Настройка параметров","status":"passed","pcode":"5","pcount":"2"},
+{"line":"12","name":"Настройка DMM6500_04625545","type":"hesh","project":"German's Measurement Full","script":"2 Инициализация приборов","region":"Настройка параметров","status":"passed","pcode":"5","pcount":"2"},
+{"line":"13","name":"Настройка HP34401A","type":"hesh","project":"German's Measurement Full","script":"2 Инициализация приборов","region":"Настройка параметров","status":"passed","pcode":"5","pcount":"2"},
+{"line":"14","name":"Настройка HDM3065B","type":"hesh","project":"German's Measurement Full","script":"2 Инициализация приборов","region":"Настройка параметров","status":"passed","pcode":"5","pcount":"2"},
+{"line":"15","name":"3 Измерения","type":"script","project":"German's Measurement Full","script":"","region":"","status":"empty","pcode":"0","pcount":"1"},
+{"line":"16","name":"Ход измерений","type":"region","project":"German's Measurement Full","script":"3 Измерения","region":"","status":"empty","pcode":"0","pcount":"2"},
+{"line":"17","name":"Измерение","type":"hesh","project":"German's Measurement Full","script":"3 Измерения","region":"Ход измерений","status":"empty","pcode":"3","pcount":"2"},
+{"line":"18","name":"Запись","type":"hesh","project":"German's Measurement Full","script":"3 Измерения","region":"Ход измерений","status":"empty","pcode":"3","pcount":"2"},
+{"line":"19","name":"4 Создание отчета","type":"script","project":"German's Measurement Full","script":"","region":"","status":"empty","pcode":"0","pcount":"1"},
+{"line":"20","name":"Формирование отчета:","type":"region","project":"German's Measurement Full","script":"4 Создание отчета","region":"","status":"empty","pcode":"0","pcount":"2"}
+]
+}

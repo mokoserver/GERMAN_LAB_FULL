@@ -1,0 +1,19 @@
+{
+"name":"German's Measurement Full",
+"autosave":"true",
+"scripts":[
+{"file":"1 Настройка параметров.py","necessary":"false"},
+{"file":"2 Инициализация приборов.py","necessary":"false"},
+{"file":"3 Измерения.py","necessary":"false"},
+{"file":"4 Создание отчета.py","necessary":"false"}
+],
+"libraries":[
+{"file":"MOKO.py"},
+{"file":"MOSC.py"},
+{"file":"MGPH.py"},
+{"file":"MFRT.py"}
+],
+"templates":[
+{"file":"Отчет.docx"}
+]
+}

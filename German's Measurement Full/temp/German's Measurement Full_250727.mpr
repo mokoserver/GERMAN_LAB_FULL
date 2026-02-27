@@ -1,0 +1,37 @@
+{
+"scripts":
+[
+{"name":"1 Настройка параметров","smark":"passed"},
+{"name":"2 Инициализация приборов","smark":""},
+{"name":"3 Измерения","smark":""},
+{"name":"4 Создание отчета","smark":""}
+],
+"report":
+[
+
+],
+"tree":
+[
+{"line":"0","name":"German's Measurement Full","type":"project","project":"","script":"","region":"","status":"empty","pcode":"0","pcount":"1"},
+{"line":"1","name":"1 Настройка параметров","type":"script","project":"German's Measurement Full","script":"","region":"","status":"empty","pcode":"0","pcount":"1"},
+{"line":"2","name":"Настройка параметров","type":"region","project":"German's Measurement Full","script":"1 Настройка параметров","region":"","status":"empty","pcode":"0","pcount":"2"},
+{"line":"3","name":"Ввод параметров","type":"hesh","project":"German's Measurement Full","script":"1 Настройка параметров","region":"Настройка параметров","status":"passed","pcode":"5","pcount":"2"},
+{"line":"4","name":"2 Инициализация приборов","type":"script","project":"German's Measurement Full","script":"","region":"","status":"empty","pcode":"0","pcount":"1"},
+{"line":"5","name":"Инициализация","type":"region","project":"German's Measurement Full","script":"2 Инициализация приборов","region":"","status":"empty","pcode":"0","pcount":"5"},
+{"line":"6","name":"Инициализация DMM6500_04582450","type":"hesh","project":"German's Measurement Full","script":"2 Инициализация приборов","region":"Инициализация","status":"empty","pcode":"3","pcount":"5"},
+{"line":"7","name":"Инициализация DMM6500_04625545","type":"hesh","project":"German's Measurement Full","script":"2 Инициализация приборов","region":"Инициализация","status":"empty","pcode":"3","pcount":"5"},
+{"line":"8","name":"Инициализация HP34401A","type":"hesh","project":"German's Measurement Full","script":"2 Инициализация приборов","region":"Инициализация","status":"empty","pcode":"3","pcount":"5"},
+{"line":"9","name":"Инициализация HDM3065B","type":"hesh","project":"German's Measurement Full","script":"2 Инициализация приборов","region":"Инициализация","status":"empty","pcode":"3","pcount":"5"},
+{"line":"10","name":"Настройка параметров","type":"region","project":"German's Measurement Full","script":"2 Инициализация приборов","region":"","status":"empty","pcode":"0","pcount":"5"},
+{"line":"11","name":"Настройка DMM6500_04582450","type":"hesh","project":"German's Measurement Full","script":"2 Инициализация приборов","region":"Настройка параметров","status":"empty","pcode":"3","pcount":"5"},
+{"line":"12","name":"Настройка DMM6500_04625545","type":"hesh","project":"German's Measurement Full","script":"2 Инициализация приборов","region":"Настройка параметров","status":"empty","pcode":"3","pcount":"5"},
+{"line":"13","name":"Настройка HP34401A","type":"hesh","project":"German's Measurement Full","script":"2 Инициализация приборов","region":"Настройка параметров","status":"empty","pcode":"3","pcount":"5"},
+{"line":"14","name":"Настройка HDM3065B","type":"hesh","project":"German's Measurement Full","script":"2 Инициализация приборов","region":"Настройка параметров","status":"empty","pcode":"3","pcount":"5"},
+{"line":"15","name":"3 Измерения","type":"script","project":"German's Measurement Full","script":"","region":"","status":"empty","pcode":"0","pcount":"1"},
+{"line":"16","name":"Ход измерений","type":"region","project":"German's Measurement Full","script":"3 Измерения","region":"","status":"empty","pcode":"0","pcount":"5"},
+{"line":"17","name":"Измерение","type":"hesh","project":"German's Measurement Full","script":"3 Измерения","region":"Ход измерений","status":"empty","pcode":"3","pcount":"5"},
+{"line":"18","name":"Запись","type":"hesh","project":"German's Measurement Full","script":"3 Измерения","region":"Ход измерений","status":"empty","pcode":"3","pcount":"5"},
+{"line":"19","name":"4 Создание отчета","type":"script","project":"German's Measurement Full","script":"","region":"","status":"empty","pcode":"0","pcount":"1"},
+{"line":"20","name":"Формирование отчета:","type":"region","project":"German's Measurement Full","script":"4 Создание отчета","region":"","status":"empty","pcode":"0","pcount":"2"}
+]
+}
